@@ -114,6 +114,7 @@
     <Compile Include="PackageDependency.cs" />
     <Compile Include="PackageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SemanticVersion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="NuGet.Core.Contracts.nuspec" />
