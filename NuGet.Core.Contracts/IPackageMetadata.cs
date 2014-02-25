@@ -7,7 +7,7 @@ using System.Text;
 
 namespace NuGet
 {
-	[ContractClass(typeof(PackageDataContractClass))]
+	[ContractClass(typeof(PackageMetadataContractClass))]
 	public interface IPackageMetadata
 	{
 		string Id { get; }
@@ -16,7 +16,7 @@ namespace NuGet
 
 	[ContractClassFor(typeof(IPackageMetadata))]
 	[ExcludeFromCodeCoverage]
-	internal abstract class PackageDataContractClass : IPackageMetadata
+	internal abstract class PackageMetadataContractClass : IPackageMetadata
 	{
 		string IPackageMetadata.Id
 		{
