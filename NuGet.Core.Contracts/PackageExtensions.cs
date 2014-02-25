@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Runtime.Versioning;
-using NuGet.Core;
 
 namespace NuGet
 {
