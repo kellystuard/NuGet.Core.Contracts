@@ -13,5 +13,12 @@ namespace NuGet
 			Contract.Ensures(Contract.ForAll(Contract.Result<IEnumerable<PackageDependency>>(), c => c != null));
 			throw new NotImplementedException();
 		}
+
+		public static IEnumerable<IPackageFile> GetLibFiles(this IPackage package)
+		{
+			Contract.Ensures(Contract.Result<IEnumerable<IPackageFile>>() != null);
+			Contract.Ensures(Contract.ForAll(Contract.Result<IEnumerable<IPackageFile>>(), c => c != null));
+			throw new NotImplementedException();
+		}
 	}
 }

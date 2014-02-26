@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IPackage.cs" />
+    <Compile Include="IPackageFile.cs" />
     <Compile Include="IPackageManager.cs" />
     <Compile Include="IPackageMetadata.cs" />
     <Compile Include="IPackagePathResolver.cs" />
