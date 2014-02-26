@@ -110,7 +110,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IPackage.cs" />
+    <Compile Include="IPackageManager.cs" />
     <Compile Include="IPackageMetadata.cs" />
+    <Compile Include="IPackagePathResolver.cs" />
     <Compile Include="PackageDependency.cs" />
     <Compile Include="PackageExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
